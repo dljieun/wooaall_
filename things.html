@@ -1,0 +1,178 @@
+
+<!doctype html>
+<html>
+<head>
+	<title>Gomme,Videograph Designer</title>
+	<meta property="og:url"                content="https://dljieun.github.io/portfolio/"/>
+   
+  	<meta property="og:image:width"        content="200" />
+  	<meta property="og:image:height"        content="200" />
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700|Noto+Sans:400,700" rel="stylesheet">
+</head>
+<style>
+
+	body{width:1600px; margin:0 auto; padding:0; background-color: black;}
+	ul, ol {list-style: none;}
+	a {text-decoration: none; color: #898989;}
+	#a3 {color:white;}
+
+	#back1 {width:1600px; z-index: 0; position: absolute; opacity:0;} 
+
+	.home {width:150px; left: 20px; top: 20px; position: absolute; }
+	#logo {width:150px; left: 20px; top: 20px; position: absolute;}
+
+	#tex1 {width: 180px; height: 50px; position:absolute; top:55px; left: 230px; font-size: 12pt; color: white;  font-family: 'Josefin Sans', sans-serif; font-weight:bolder; line-height: 15pt;}
+	#tex2 {width: 180px; height: 50px; position:absolute; top:55px; left: 380px; font-size: 12pt; color: white;  font-family: 'Josefin Sans', sans-serif;  line-height: 15pt;}
+
+	
+	
+	#menu1{width:100px; height: 40px; position: absolute; top: 85px; left: 1230px; font-size: 11pt;  font-family: 'Josefin Sans', sans-serif;, font-weight:700;}
+	#menu1 :hover {color:black;}
+	#menu1-1{width:100px; height: 40px; position: absolute; top: 85px; left: 1300px; font-size: 11pt;font-family: 'Josefin Sans', sans-serif;, font-weight:700;}
+	#menu1-1 :hover {color: black;}
+	#menu1-2{width:100px; height: 40px; position: absolute; top: 85px; left: 1370px; font-size: 11pt;font-family: 'Josefin Sans', sans-serif;, font-weight:700;}
+	#menu1-2 :hover {color: black;}
+	#menu2 {width:100px; height: 40px; position: absolute; top: 85px; left: 1450px; font-size: 11pt;font-family: 'Josefin Sans', sans-serif;, font-weight:700;}
+	#menu2 :hover {color: black;}
+	#menu3{width:150px; height: 40px; position: absolute; top: 85px; left: 1520px; font-size: 11pt;  font-family: 'Josefin Sans', sans-serif;,   font-weight:700;}
+	#menu3 :hover {color: black;}
+	
+	
+
+
+	#tex11 {width: 180px; height: 50px; position:absolute; top:55px; left: 230px; font-size: 12pt; color:white;   font-family: 'Josefin Sans', sans-serif; font-weight:bolder; line-height: 15pt;}
+	#tex22 {width: 180px; height: 50px; position:absolute; top:55px; left: 380px; font-size: 12pt; color:white;   font-family: 'Josefin Sans', sans-serif;  line-height: 15pt;}
+
+
+
+	
+
+	#copyright {width: 150px; height: 20px; position: absolute; color:white; top:4785px; left: 615px; padding-bottom: 40px; font-family: 'Josefin Sans', sans-serif;, font-weight:700;font-size: 12pt;}
+	#address {width:100px; height: 20px; position: absolute; color:white; top: 4785px; left: 775px; font-family: 'Josefin Sans', sans-serif;, font-weight:700;font-size: 12pt; }
+	#number {width:150px; height: 20px; position: absolute; color:white;  top: 4785px; left: 900px;  font-family: 'Josefin Sans', sans-serif;, font-weight:700;font-size: 12pt;}
+
+	#exmu {width:500px; height: 300px; position: absolute; top: 320px; left: 100px; }
+	#exmu1 {width:300px; height: 150px; position: absolute; top: 780px; left: 1045px; color:white; font-family: 'Noto Sans KR', sans-serif;font-size: 14pt;font-weight: bolder; }
+	#exmu2 {width:500px; height: 300px; position: absolute; top: 850px; left:1050px; color:white;font-family: 'Noto Sans KR', sans-serif; font-size: 10pt;}
+
+	.tooltip { width:500px; height: 300px;   position: absolute;display: inline-block; top: 400px; left:200px; z-index:99; background:url('bong.png'); background-size: cover;}
+	.tooltip .tooltiptext {visibility: hidden; width: 150px; height: 30px; background-color:white; color:black; border-radius: 6px; text-align: center; font-weight: bold; text-align: center; padding: 5px 0;top: 200px; left:600px; font-family:'Noto Sans KR', sans-serif; font-size: 12pt;  position: absolute; padding-bottom: -10px;}
+  
+
+	.tooltip:hover .tooltiptext {visibility: visible;}
+
+
+
+
+	#iwa {width: 500px; height: 300px; position: absolute; top: 1200px; left:900px;}
+	#iwa1 {width: 300px; height: 200px; position: absolute; top: 1160px; left: 1450px;  color:white;  font-family: 'Noto Sans KR', sans-serif; font-size: 10pt;font-weight: bolder;}
+	#iwa2{ width: 300px; height: 200px; position: absolute; top: 1530px; left: 915px; color:white;  font-family: 'Noto Sans KR', sans-serif; font-size: 10pt;font-weight: bolder;}
+	#iwa3{ width: 300px; height: 200px; position: absolute; top: 1530px; left:		 1400px; color:white;  font-family: 'Noto Sans KR', sans-serif; font-size: 10pt;}
+
+	#heavy {width:800px; height: 500px; position: absolute; top: 1800px; left:150px;}
+	#haevy {width: 100px; height: 100px; position: absolute; top: 2220px; left: 180px;}
+	#hv1 {width:400px; height: 200px; position: absolute; top: 2240px; left: 300px; color:white; font-family: 'Noto Sans KR', sans-serif; font-size: 18pt;font-weight: bolder;}
+	#hv2 {width: 600px; height: 300px; position: absolute; top: 2310px; left: 300px; color:white;  font-family: 'Noto Sans KR', sans-serif; font-size: 10pt; line-height: 19px;}
+
+	#boshu {width:500px; height:500px; position: absolute; top: 2590px; left: 400px;}
+	#bs1 {width:400px; height: 200px; position: absolute; top: 2860px; left: 950px; color:white;  font-family: 'Noto Sans KR', sans-serif; font-size: 18pt;font-weight: bolder; line-height: 18px; }
+	#bs2 {width: 600px; height: 300px; position: absolute; top: 2910px; left: 950px; color:white;  font-family: 'Noto Sans KR', sans-serif; font-size: 10pt;ine-height: 20px;}
+
+
+	
+</style>
+<body>
+
+	<div class="home">
+		<a href="index.html"><img id="logo" src="logo_1.png">
+	</div>
+	<div id="tex11">video,photographs<br>
+					and motion graphic <br>
+					porfolio.</div>
+	<div id="tex22">Let's have <br>wonderful experience <br>together.</div>
+
+	<ul>
+		<li id="menu1">
+			<a id="a1" href="work.html">
+				video
+			</a>
+		</li>
+		<li id="menu1-1">
+			<a id="a1" href="photo.html">
+				photo
+			</a>
+		</li>
+		<li id="menu1-2">
+			<a id="a1" href="graphic.html">
+				graphic
+			</a>
+		</li>
+		
+
+		<li id="menu2">
+			<a id="a2" href="about.html">
+				about
+			</a>
+		</li>
+		<li id="menu3">
+			<a id="a3" href="things.html">
+				things I love
+			</a>
+		</li>
+	</ul>
+
+	
+	<div id="exmu">
+		<a href="https://extmovie.com/movietalk"> <img src="bong.jpg">
+	</div>
+	<p id="exmu1">ExtremeMovie</p>
+	<p id="exmu2">익스트림무비,<br>
+	영화를 사랑하는 사람들의 영화 수다 커뮤니티.<br>
+	영화리뷰, 굿즈나눔, 시사회 등 다양한 정보들을 알리는 페이지로<br>
+	영화에 관심이 있다면 다들 들어봤을 법 하다.</p>
+
+	<div id="iwa">
+		<a href="http://www.line8elephant.com"> <img src="iwa.png">
+	</div>
+	<p id="iwa1">Iwa</p>
+	<p id="iwa2">line8elephant</p>
+	<p id="iwa3">videographer</p>
+
+
+	<div id="heavy">
+		<a href="https://heavymagazine.kr"> <img src="heavy.png">
+	</div>
+	<img id="haevy" src="haevy.png">
+	<p id="hv1">Heavy Magazine.</p>
+	<p id="hv2">여성 아티스트를 알리는 목적으로 기획된 매거진 헤비.<br>
+	 클래스101의 '나하나'디자이너와 다른 디자이너들이 함께 기획한 잡지가 이번에 출간되었다.<br>
+	 2년간 준비한 volume0,1이 이번 6월 29일까지 성수 데이즈드 코리아에서 판매되고 있다.</p>
+
+	<div id="boshu">
+		<a href="https://www.instagram.com/boshu.mag/"> <img src="boshu.png">
+	</div>
+	<p id="bs1">BOSHU 보슈</p>
+	<p id="bs2">대전에서 여성주의적 관점으로 기획하는 매거진.<br><br>		
+		⚽️여성축구팀 FC우먼스플레잉<br>
+		🥋여성주짓수팀 Overset<br>
+		✒여성주의 글쓰기 시리즈강연<br>
+		🎧WomynOnly DJ파티<br>
+		🏃🏻‍♀️페미운동회 동분서주</p>
+
+	
+
+	<div class="tooltip">
+		<span class="tooltiptext">extrememovie</span></div>
+
+
+
+	<p id="copyright">copyright©gomme</p>
+	<p id="address">Seoul, Korea</p>
+	<p id="number">@dljieun</p>
+
+
+
+	
+</body>
+</html>

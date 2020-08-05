@@ -1,0 +1,141 @@
+
+<!doctype html>
+<html>
+<head>
+	<title>Gomme,Videograph Designer</title>
+	<meta property="og:url"                content="https://dljieun.github.io/portfolio/"/>
+   
+  	<meta property="og:image:width"        content="200" />
+  	<meta property="og:image:height"        content="200" />
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700|Noto+Sans:400,700" rel="stylesheet">
+</head>
+<style>
+
+	body{width:1600px; margin:0 auto; background-color: #F5F7F2;}
+	ul, ol {list-style: none;}
+	a {text-decoration: none; color: #898989;}
+	#a111 {color:black;}
+
+	.home {width:150px; left: 20px; top: 20px; position: absolute; }
+	#logo {width:150px; left: 20px; top: 20px; position: absolute;}
+	#back1 {width:1600px; z-index: 0; position: absolute; opacity:0;} 
+	
+	#tex1 {width: 180px; height: 50px; position:absolute; top:55px; left: 230px; font-size: 12pt; color: black;  font-family: 'Josefin Sans', sans-serif; font-weight:bolder; line-height: 15pt;}
+	#tex2 {width: 180px; height: 50px; position:absolute; top:55px; left: 380px; font-size: 12pt; color: black;  font-family: 'Josefin Sans', sans-serif;  line-height: 15pt;}
+
+	
+	
+	#menu1{width:100px; height: 40px; position: absolute; top: 85px; left: 1230px; font-size: 11pt;  font-family: 'Josefin Sans', sans-serif;, font-weight:700;}
+	#menu1 :hover {color:black;}
+	#menu1-1{width:100px; height: 40px; position: absolute; top: 85px; left: 1300px; font-size: 11pt;font-family: 'Josefin Sans', sans-serif;, font-weight:700;}
+	#menu1-1 :hover {color: black;}
+	#menu1-2{width:100px; height: 40px; position: absolute; top: 85px; left: 1370px; font-size: 11pt;font-family: 'Josefin Sans', sans-serif;, font-weight:700;}
+	#menu1-2 :hover {color: black;}
+	#menu2 {width:100px; height: 40px; position: absolute; top: 85px; left: 1450px; font-size: 11pt;font-family: 'Josefin Sans', sans-serif;, font-weight:700;}
+	#menu2 :hover {color: black;}
+	#menu3{width:150px; height: 40px; position: absolute; top: 85px; left: 1520px; font-size: 11pt;  font-family: 'Josefin Sans', sans-serif;,   font-weight:700;}
+	#menu3 :hover {color: black;}
+	
+	
+
+	.tooltip { width:50px; height: 50px;  position: absolute; display: inline-block; top: 4985px; left: 200px; background:url('google.png'); background-size: cover;}
+	.tooltip .tooltiptext {visibility: hidden; width: 180px; height: 18px; background-color:black; color:white; border-radius: 6px; text-align: center; font-weight: bold; padding: 10px 0;top: 5px; left:60px;  font-family: 'Josefin Sans', sans-serif;, font-weight:700;font-size: 12pt;  position: absolute; padding-bottom: -10px;}
+	.tooltip:hover .tooltiptext {visibility: visible;}
+	
+
+	#copyright {width: 150px; height: 20px; position: absolute; color:black; top:5085px; left: 615px; padding-bottom: 40px; font-family: 'Josefin Sans', sans-serif;, font-weight:700;font-size: 12pt;}
+	#address {width:100px; height: 20px; position: absolute; color:black; top: 5085px; left: 775px; font-family: 'Josefin Sans', sans-serif;, font-weight:700;font-size: 12pt; }
+	#number {width:150px; height: 20px; position: absolute; color:black; top: 5085px; left: 900px;  font-family: 'Josefin Sans', sans-serif;, font-weight:700;font-size: 12pt;}
+	#tex11 {width: 180px; height: 50px; position:absolute; top:55px; left: 230px; font-size: 12pt; color: black;  font-family: 'Josefin Sans', sans-serif; font-weight:bolder; line-height: 15pt;}
+	#tex22 {width: 180px; height: 50px; position:absolute; top:55px; left: 400px; font-size: 12pt; color: black;  font-family: 'Josefin Sans', sans-serif;  line-height: 15pt;}
+
+	#palposters {width: 1550px; position: absolute;  z-index: -100; padding: 0; margin:0 auto; top: -15px; left:-15px;}
+	#pal1 {width: 800px; position: absolute; top: 1200px; left: 300px; }
+	#pal2 {width: 700px; position: absolute; top:1850px; left: 800px;}
+	#pal4 {width: 700px; position: absolute; top: 2170px; left:-50px;}
+
+
+	#wooaall {width: 1400px; height:933px; position: absolute; top: 3680px; left: 120px;}
+	#wooaall_ {width: 300px; height: 300px; position: absolute; top: 3270px; left: 180px; z-index: 99;}
+	#woo1 {width: 600px; height: 400px; position: absolute; top: 3380px; left: 530px; color:black;  font-family: 'Noto Sans KR', sans-serif; font-size: 10pt;font-weight: bolder; line-height: 20px;}
+
+	
+
+	#tit2 {width: 300px; height: 200px; position: absolute; top: 3500px; left: 335px; color:white; font-family: 'Noto Sans KR', sans-serif;font-size: 32pt;font-weight: bolder; }
+	#date2 {width:300px; height: 100px; position: absolute; top: 3600px; left: 335px; color:white; font-family: 'Noto Sans KR', sans-serif;font-size: 11pt;letter-spacing: -1px; font-weight: bolder; text-align: left; }
+	#headline {width: 300px; height: 100px; position: absolute; top: 3780px; left: 335px; color:white; font-family: 'Noto Sans KR', sans-serif;font-size: 12pt;letter-spacing: -1px; font-weight: bolder;}
+	#tex3 {width: 500px; height: 400px; position: absolute; top: 3820px; left: 335px; color:white; font-family: 'Noto Sans KR', sans-serif;font-size: 12pt;letter-spacing: -1px;  line-height: 26px;  }
+
+</style>
+<body>
+
+	<div class="home">
+		<a href="index.html"><img id="logo" src="logo_1.png">
+	</div>
+
+	<ul>
+		<li id="menu1">
+			<a id="a1" href="work.html">
+				video
+			</a>
+		</li>
+		<li id="menu1-1">
+			<a id="a11" href="photo.html">
+				photo
+			</a>
+		</li>
+		<li id="menu1-2">
+			<a id="a111" href="graphic.html">
+				graphic
+			</a>
+		</li>
+
+		<li id="menu2">
+			<a id="a2" href="about.html">
+				about
+			</a>
+		</li>
+		<li id="menu3">
+			<a id="a3" href="things.html">
+				things I love
+			</a>
+		</li>
+	</ul>
+
+	<div id="tex11">video,photographs<br>
+					and motion graphic <br>
+					porfolio.</div>
+	<div id="tex22">Let's have <br>wonderful experience <br>together.</div>
+
+	<img id="pal1" src="pal1.jpg">
+	<img id="pal2" src="pal2.jpg">
+	<img id="pal4" src="pal4.png">
+ 	<img id="palposters" src="palposters.jpg">
+	
+
+	<div id="wooaall">
+		<a href="https://www.instagram.com/wooaall___/"> <img src="wooaall.jpg">
+	</div>
+	<img id="wooaall_" src="wooaall_.png">
+	<p id="woo1">우(리가) 알(아야하는 것들)<br><br>
+		보기 싫은 것들이 보고싶도록 만들어지길 바라며<br>
+		우리가 알아야하는 이야기들을 알립니다.<br>
+		그냥 지나쳤던 사소한 것들 까지.<br>
+		- About what we have to know.</p>
+
+
+
+
+	<div class="tooltip">
+  	<span class="tooltiptext">lje5909@gmail.com</span></div>
+  	
+	<p id="copyright">Copyright©gomme</p>
+	<p id="address">Seoul, Korea</p>
+	<p id="number">@dljieun</p>
+
+
+
+	
+</body>
+</html>
